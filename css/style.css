@@ -1,0 +1,185 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+p, span, a, label {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+hr {
+    border-width: medium;
+    border-color: #f27072;
+    width: 5%;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* HEADER */
+.header {
+    height: 100%;
+    background-image: url('/assets/hero_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: opacity(80%);
+}
+
+.header .navbar li .nav-link, .header .navbar .navbar-toggler-icon, .header .navbar .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+.header .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .header-content h1, .header .header-content p, .header .header-content a {
+    color: white;
+    text-align: center;
+}
+
+.header .header-content p {
+    font-size: 25px;
+}
+
+.header .header-content .button-custom {
+    border-color: white;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+ul#ios-download li {
+    display: inline;
+}
+
+.header .header-content i {
+    padding-right: 15px;
+}
+
+/* ABOUT/INFO */
+.about h3{
+    color: #1c9090;
+}
+
+.about img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .desc {
+    margin: auto;
+    padding: 10px;
+}
+
+/* FEATURES */
+.icon {
+    text-align: center;
+    margin: 20px auto;
+    background-color: #26A5DC;
+    padding: 20px;
+    height: 130px;
+    width: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.features .icon i {
+    color: #F5C9CE;
+}
+
+/* CONTACT */
+
+.contact i {
+    color: white;
+}
+
+.contact a:hover {
+    color: #f7c9cb;
+}
+
+.contact .button-custom-submit {
+    background-color: #f27072;
+    color: black;
+    border-color: #f27072;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #19191b;
+}
+
+footer a {
+    color: #f7c9cb;
+}
+
+/* SECTIONS */
+.features, .contact {
+    background-color: #148e8f;
+}
+
+.company h2, .company p, .about h4, .about p {
+    color: #148e8f;
+}
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .about .desc  {
+      text-align: center;
+    }
+}
